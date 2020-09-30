@@ -8,16 +8,31 @@ portfolio {
   background: white;
   border-style: solid;
   border-color: #e1b12c;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
   color: #e1b12c;
   border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.services .card {
+  border: none;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .services .card-title {
-  color: red;
-  font-style: italic;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.services .card-subtitle {
+  font-size: small;
 }
 
 .services .title-services {
