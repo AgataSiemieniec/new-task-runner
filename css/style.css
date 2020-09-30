@@ -50,7 +50,6 @@ portfolio {
 
 /* Portfolio */
 .portfolio .card {
-  border: none;
   text-align: center;
   -ms-flex-pack: center;
       justify-content: center;
