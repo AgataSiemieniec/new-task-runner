@@ -1,0 +1,22 @@
+portfolio {
+  background-color: aquamarine;
+}
+
+/* Services */
+.services i {
+  font-size: 30px;
+  background: white;
+  border-style: solid;
+  border-color: #e1b12c;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #e1b12c;
+  border-radius: 50%;
+}
+
+.services .card-title {
+  color: red;
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */
