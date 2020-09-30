@@ -17,6 +17,7 @@ portfolio {
 /* Services */
 
 .services {
+
     i {
         font-size: 30px;
         background:white;
@@ -49,5 +50,20 @@ portfolio {
     .title-services {
         font-weight: bold;
     
+    }
+}
+
+/* Portfolio */
+
+.portfolio {
+
+    .card {
+        border: none;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .title-services {
+        font-weight: bold;
     }
 }

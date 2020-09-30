@@ -47,4 +47,16 @@ portfolio {
 .services .title-services {
   font-weight: bold;
 }
+
+/* Portfolio */
+.portfolio .card {
+  border: none;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.portfolio .title-services {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
