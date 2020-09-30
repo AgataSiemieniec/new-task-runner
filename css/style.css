@@ -49,13 +49,28 @@ portfolio {
 }
 
 /* Portfolio */
+.portfolio {
+  background-color: #f1f2f6;
+}
+
 .portfolio .card {
   text-align: center;
   -ms-flex-pack: center;
       justify-content: center;
+  background-color: #f1f2f6;
+  border: none;
+}
+
+.portfolio .card .card-body {
+  background-color: #ffffff;
 }
 
 .portfolio .title-services {
   font-weight: bold;
+}
+
+.portfolio .row {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */

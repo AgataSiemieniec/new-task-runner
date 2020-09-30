@@ -56,14 +56,24 @@ portfolio {
 /* Portfolio */
 
 .portfolio {
+     background-color: #f1f2f6;
 
     .card {
-        
         text-align: center;
         justify-content: center;
+        background-color: #f1f2f6;
+        border: none;
+        .card-body{
+            background-color: #ffffff;
+        }
     }
 
     .title-services {
         font-weight: bold;
+    }
+
+    .row {
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
