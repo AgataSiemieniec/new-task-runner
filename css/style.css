@@ -79,4 +79,16 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+/* Footer */
+footer ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+footer ul li {
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */
