@@ -7,10 +7,6 @@
       align-items: center;
 }
 
-portfolio {
-  background-color: aquamarine;
-}
-
 /* Services */
 .services i {
   font-size: 30px;
@@ -63,9 +59,19 @@ portfolio {
 
 .portfolio .card .card-body {
   background-color: #ffffff;
+  padding: 10px;
 }
 
-.portfolio .title-services {
+.portfolio .card .card-text {
+  font-style: italic;
+  font-size: small;
+}
+
+.portfolio .card .card-title {
+  font-weight: bold;
+}
+
+.portfolio .title-portfolio {
   font-weight: bold;
 }
 

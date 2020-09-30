@@ -10,10 +10,6 @@
         align-items: center;
 }
 
-portfolio {
-    background-color: aquamarine;
-}
-
 /* Services */
 
 .services {
@@ -65,10 +61,18 @@ portfolio {
         border: none;
         .card-body{
             background-color: #ffffff;
+            padding: 10px;
+        }
+        .card-text {
+            font-style: italic;
+            font-size: small;
+        }
+        .card-title {
+            font-weight: bold;
         }
     }
 
-    .title-services {
+    .title-portfolio {
         font-weight: bold;
     }
 
