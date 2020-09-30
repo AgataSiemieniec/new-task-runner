@@ -19,4 +19,8 @@ portfolio {
   color: red;
   font-style: italic;
 }
+
+.services .title-services {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
