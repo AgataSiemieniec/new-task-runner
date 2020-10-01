@@ -81,14 +81,22 @@
 }
 
 /* Footer */
-footer ul {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
+footer li {
+  display: inline-block;
 }
 
-footer ul li {
-  display: inline-block;
+footer i {
+  font-size: 20px;
+  background: red;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+footer i .one {
+  background: #0abde3;
 }
 /*# sourceMappingURL=style.css.map */

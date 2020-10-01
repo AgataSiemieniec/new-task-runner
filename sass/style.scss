@@ -86,13 +86,23 @@
 
 footer {
 
-    ul {
-        display: flex;
-        align-items: center;
-        
-        li {
-            display: inline-block;
-            
+    li {
+        display: inline-block; 
+    }   
+
+    i {
+        font-size: 20px;
+        background:red;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: white;
+        border-radius: 50%; 
+        text-align: center;
+        .one {
+
+            background: #0abde3;
         }
     }
+         
 }
