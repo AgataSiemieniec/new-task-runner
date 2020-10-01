@@ -1,5 +1,4 @@
 /* Header */
-/* Home */
 .home {
   display: -ms-flexbox;
   display: flex;
@@ -17,12 +16,25 @@
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  margin: 0 40px;
+}
+
+.home .row ul {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
 }
 
 .home .row a {
   color: #ffffff;
   font-weight: bold;
+  font-size: 13px;
+}
+
+.home .home-title {
+  font-style: italic;
+}
+
+.home .home-subtitle {
+  font-size: 50px;
 }
 
 /* Services */

@@ -3,25 +3,34 @@
 
 /* Header */
 
-/* Home */
-
 .home {
     
     display: flex;
-    
+
     .card-img-overlay {
         justify-content: center;
         align-items: center;
     }
+
     .row {
         display: flex;
         justify-content: space-between;
-        margin: 0 40px;
 
+        ul {
+            justify-content: flex-end;
+        }
         a {
             color: #ffffff;
             font-weight: bold;
+            font-size: 13px;
         }
+    }
+    .home-title {
+        font-style: italic;
+    }
+
+    .home-subtitle {
+        font-size: 50px;
         
     }
 }
