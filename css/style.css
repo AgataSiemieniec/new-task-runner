@@ -22,8 +22,6 @@
 .home .row ul {
   -ms-flex-pack: end;
       justify-content: flex-end;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
 }
 
 .home .row a {
