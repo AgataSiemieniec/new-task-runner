@@ -1,4 +1,4 @@
-
+/* Variables */
 
 
 /* Header */
@@ -19,12 +19,14 @@
         ul {
             justify-content: flex-end;
         }
+
         a {
             color: #ffffff;
             font-weight: bold;
             font-size: 13px;
         }
     }
+
     .home-title {
         font-style: italic;
     }
@@ -79,6 +81,12 @@
 .portfolio {
      background-color: #f1f2f6;
 
+    .card-portfolio{
+        text-align: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+
     .card {
         display: flex;
         text-align: center;
@@ -104,7 +112,6 @@
             object-fit: cover;
         }
     }
-
     .title-portfolio {
         font-weight: bold;
     }

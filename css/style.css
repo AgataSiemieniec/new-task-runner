@@ -1,3 +1,4 @@
+/* Variables */
 /* Header */
 .home {
   display: -ms-flexbox;
@@ -77,6 +78,13 @@
 /* Portfolio */
 .portfolio {
   background-color: #f1f2f6;
+}
+
+.portfolio .card-portfolio {
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding: 50px 0;
 }
 
 .portfolio .card {
