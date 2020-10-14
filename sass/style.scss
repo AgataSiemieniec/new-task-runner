@@ -27,8 +27,13 @@
         }
     }
 
+    .btn {
+        margin: 30px;
+    }
+
     .home-title {
         font-style: italic;
+        padding-top: 250px;
     }
 
     .home-subtitle {
@@ -53,6 +58,7 @@
         border-radius: 50%;
         display: flex;
         justify-content: center;
+        margin: 0 auto;
 
     }
 
@@ -130,19 +136,23 @@ footer {
         display: inline-block;
 
         .fa-twitter {
-            background-color: #48dbfb;
+            background-color: black;
+            padding: 15px;
         }
 
         .fa-facebook {
             background-color: #2e86de;
+            padding: 15px;
         }
 
         .fa-pinterest{
             background-color:#ee5253;
+            padding: 15px;
         }
 
         .fa-google{
             background-color: #d35400;
+            padding: 15px;
         }
 
     } 
@@ -168,3 +178,4 @@ footer {
         border: none;
     }      
 }
+

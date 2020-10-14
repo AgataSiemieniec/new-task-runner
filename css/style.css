@@ -30,8 +30,13 @@
   font-size: 13px;
 }
 
+.home .btn {
+  margin: 30px;
+}
+
 .home .home-title {
   font-style: italic;
+  padding-top: 250px;
 }
 
 .home .home-subtitle {
@@ -53,6 +58,7 @@
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
+  margin: 0 auto;
 }
 
 .services .card {
@@ -134,18 +140,22 @@ footer li {
 
 footer li .fa-twitter {
   background-color: #48dbfb;
+  padding: 15px;
 }
 
 footer li .fa-facebook {
   background-color: #2e86de;
+  padding: 15px;
 }
 
 footer li .fa-pinterest {
   background-color: #ee5253;
+  padding: 15px;
 }
 
 footer li .fa-google {
   background-color: #d35400;
+  padding: 15px;
 }
 
 footer ul {
