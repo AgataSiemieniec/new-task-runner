@@ -139,23 +139,43 @@ footer li {
 }
 
 footer li .fa-twitter {
-  background-color: #48dbfb;
+  background-color: black;
   padding: 15px;
+}
+
+footer li .fa-twitter:hover {
+  background-color: #48dbfb;
+  transition: all 0.7s;
 }
 
 footer li .fa-facebook {
-  background-color: #2e86de;
+  background-color: black;
   padding: 15px;
+}
+
+footer li .fa-facebook:hover {
+  background-color: #2e86de;
+  transition: all 0.7s;
 }
 
 footer li .fa-pinterest {
-  background-color: #ee5253;
+  background-color: black;
   padding: 15px;
 }
 
+footer li .fa-pinterest:hover {
+  background-color: #ee5253;
+  transition: all 0.7s;
+}
+
 footer li .fa-google {
-  background-color: #d35400;
+  background-color: black;
   padding: 15px;
+}
+
+footer li .fa-google:hover {
+  background-color: #d35400;
+  transition: all 0.7s;
 }
 
 footer ul {
@@ -179,5 +199,17 @@ footer .card {
   -ms-flex-pack: center;
       justify-content: center;
   border: none;
+}
+
+/* Media queries */
+@media (max-width: 576px) {
+  .home .row ul {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    text-align: right;
+  }
+  .home .row ul a {
+    font-size: 7px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

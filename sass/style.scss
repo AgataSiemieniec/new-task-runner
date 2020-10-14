@@ -138,21 +138,37 @@ footer {
         .fa-twitter {
             background-color: black;
             padding: 15px;
+            &:hover {
+                background-color: #48dbfb;
+                transition: all 0.7s;
+            }
         }
 
         .fa-facebook {
-            background-color: #2e86de;
+            background-color: black;
             padding: 15px;
+            &:hover {
+                background-color: #2e86de;
+                transition: all 0.7s;
+            }
         }
 
         .fa-pinterest{
-            background-color:#ee5253;
+            background-color:black;
             padding: 15px;
+            &:hover {
+                background-color: #ee5253;
+                transition: all 0.7s;
+            }
         }
 
         .fa-google{
-            background-color: #d35400;
+            background-color: black;
             padding: 15px;
+            &:hover {
+                background-color:  #d35400;
+                transition: all 0.7s;
+            }
         }
 
     } 
@@ -177,5 +193,28 @@ footer {
         justify-content: center;
         border: none;
     }      
+}
+
+/* Media queries */
+
+@media (max-width: 576px) {
+
+    .home{
+
+        .row{
+
+            ul{  
+                
+                flex-direction: column;
+                text-align: right;
+                a {
+                    font-size: 7px;
+                    
+                
+                }
+            }
+        }
+    }
+
 }
 
