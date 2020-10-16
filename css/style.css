@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* Variables */
 /* Header */
 .home {
@@ -30,13 +34,15 @@
   font-size: 13px;
 }
 
-.home .btn {
-  margin: 30px;
+.home .home-caption {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
 }
 
 .home .home-title {
   font-style: italic;
-  padding-top: 250px;
 }
 
 .home .home-subtitle {
@@ -102,6 +108,7 @@
   background-color: #f1f2f6;
   border: none;
   max-width: 300px;
+  margin: 0 auto;
 }
 
 .portfolio .card .card-body {
@@ -202,14 +209,61 @@ footer .card {
 }
 
 /* Media queries */
-@media (max-width: 576px) {
-  .home .row ul {
-    -ms-flex-direction: column;
-        flex-direction: column;
-    text-align: right;
+@media (max-width: 992px) {
+  .home .home-title {
+    font-size: 20px;
   }
-  .home .row ul a {
-    font-size: 7px;
+  .home .home-subtitle {
+    font-size: 35px;
+  }
+  .home .row a {
+    font-size: 11px;
+    padding: 8px;
+  }
+  footer i {
+    font-size: 20px;
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .home-title {
+    font-size: 15px;
+  }
+  .home .home-subtitle {
+    font-size: 20px;
+  }
+  .home .row a {
+    font-size: 10px;
+    padding: 6px;
+  }
+  .home .btn {
+    font-size: 12px;
+  }
+  .services .title-services {
+    font-size: 25px;
+  }
+  .services .subtitle-services {
+    font-size: 14px;
+  }
+  .portfolio .title-portfolio {
+    font-size: 25px;
+  }
+  .portfolio .subtitle-portfolio {
+    font-size: 14px;
+  }
+  footer ul {
+    -ms-flex-pack: center;
+        justify-content: center;
+    padding-top: 10px;
+  }
+  footer li i {
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,10 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 /* Variables */
 
 
 /* Header */
-
 .home {
     
     display: flex;
@@ -27,13 +29,15 @@
         }
     }
 
-    .btn {
-        margin: 30px;
-    }
 
+    .home-caption {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+    }
     .home-title {
         font-style: italic;
-        padding-top: 250px;
     }
 
     .home-subtitle {
@@ -100,6 +104,7 @@
         background-color: #f1f2f6;
         border: none;
         max-width: 300px;
+        margin: 0 auto;
 
         .card-body{
             background-color: #ffffff;
@@ -153,7 +158,7 @@ footer {
             }
         }
 
-        .fa-pinterest{
+        .fa-pinterest {
             background-color:black;
             padding: 15px;
             &:hover {
@@ -197,24 +202,96 @@ footer {
 
 /* Media queries */
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
 
-    .home{
+    .home {
 
-        .row{
+        .home-title {
+            font-size: 20px;
+        }
 
-            ul{  
-                
-                flex-direction: column;
-                text-align: right;
-                a {
-                    font-size: 7px;
-                    
-                
-                }
+        .home-subtitle {
+            font-size: 35px;
+            
+        }
+        .row {
+
+            a {
+                font-size: 11px;
+                padding: 8px;
             }
+        }   
+    }    
+
+    footer {
+
+        i {
+            font-size: 20px;
+            width: 47px;
+            height: 47px;
+            line-height: 47px;
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+
+        .home-title {
+            font-size: 15px;
+        }
+
+        .home-subtitle {
+            font-size: 20px;
+        }
+
+        .row {
+
+            a {
+                font-size: 10px;
+                padding: 6px;
+            }
+        }   
+
+        .btn {
+            font-size: 12px;
+        }
+    }    
+
+    .services {
+        
+        .title-services {
+            font-size: 25px;
+        }
+        .subtitle-services {
+            font-size: 14px;
+        }
+    }
+    .portfolio {
+        
+        .title-portfolio {
+            font-size: 25px;
+        }
+        .subtitle-portfolio {
+            font-size: 14px;
         }
     }
 
-}
+    footer {
 
+        ul {
+            justify-content: center;
+            padding-top: 10px;
+        }
+        li{
+
+            i{
+                font-size: 12px;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+            }
+        }      
+    }
+}
